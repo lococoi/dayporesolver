@@ -72,7 +72,7 @@ class DaypoAutoSolver(ctk.CTk):
             self.driver.get(self.url_entry.get() or "https://www.daypo.com")
             self.is_running = True
             self.status_label.configure(text="estado: en curso", text_color="green")
-            self.log("iniciado. hacé login.")
+            self.log("iniciá sesión...")
 
             while self.is_running:
                 try:
